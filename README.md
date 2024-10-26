@@ -4,6 +4,7 @@ Detecting cyber-attacks has become a critical priority in the quickly changing w
 
 Feature selection is critical for increasing the performance of machine learning models by finding the most important characteristics that contribute to the model's predictive capacity. We use ICA (Independent Component Analysis) for feature selection. To increase machine learning model performance and detection accuracy, optimize model parameters, tune weights, and use optimization techniques like Sea Gull Optimization (SE-SGO). By adopting these strategies and leveraging the collective expertise of the cybersecurity and data analytics communities, we can strengthen our defences, improve threat detection capabilities, and build resilient systems to protect critical information assets from evolving cyber threats.
 <br>
+
 PRE-PROCESSING:
 Cleaning, converting, and organizing raw data is known as preprocessing, and it is an essential stage in data analysis and machine learning.
 The goal of data preprocessing is to improve the quality of the data and to make it more suitable for the specific data mining task.
@@ -12,7 +13,7 @@ In order to ensure that all features have a similar scale and avoid larger-scale
 We have used min-max scaler for normalization.
 Removal of null values to enhance data integrity and prepare it for further analysis.
 These steps collectively prepare the data for robust analysis and model building.
-
+<br>
 INDEPENDENT COMPONENT ANALYSIS(ICA):
 Independent components analysis (ICA) is used to take a large data set consisting of many variables and reduce it into smaller number dimensions
 ICA is a computational method for separating a multivariate signal into its underlying components.
@@ -25,19 +26,19 @@ Normalize w
 Compute the Jaccard coefficient that is measured to find the similarity among samples
 Ensure that the algorithm has converged and if it has not returned to step 4
 Take the dot product of w and y obtain an independent signal source (S)
-
+<br>
 LONG TERM SHORT MEMORY(LSTM):
 It is used in the field of Deep Learning.
 It is a variety of Recurrent Neural Networks (RNN) that are capable of learning long-term dependencies .
 LSTMs are able to process and analyze sequential data, such as time series, text, and speech.
 They use a memory cell and gates to control the flow of information, allowing them to selectively retain or discard information as needed and thus avoid the vanishing gradient problem that plagues traditional RNNs.
-
+<br>
 DEEP MAX OUT(DMO):
 DMO describes a neural network layer where the function chooses the maximum value from a set of input.
 To increase the overall performance, the DMO layer is integrated into the model.
 The final detection is obtained by averaging the outputs of the DMO layer and LSTM.
 They use a memory cell and gates to control the flow of information, allowing them to selectively retain or discard information as needed and thus avoid the vanishing gradient problem that plagues traditional RNNs.
-
+<br>
 SEAGULL OPTIMIZATION:
 Optimization refers to getting the best solution out of all feasible solutions.
 Inspired by the foraging behavior of seagulls, the seagull optimization algorithm (SOA) is a newly suggested meta-heuristic optimization algorithm.
